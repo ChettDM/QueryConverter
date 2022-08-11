@@ -1,0 +1,3 @@
+[submodule "MVVM"]
+	path = MVVM
+	url = https://github.com/ChettDM/MVVM.git
