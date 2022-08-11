@@ -5,6 +5,34 @@
         <TargetFramework>net6.0-windows</TargetFramework>
         <Nullable>enable</Nullable>
         <UseWPF>true</UseWPF>
+        <AssemblyVersion>1.00.00</AssemblyVersion>
+        <FileVersion>1.00.00</FileVersion>
     </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Remove="MVVM\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="MVVM\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="MVVM\**" />
+      <None Remove=".gitignore" />
+      <None Remove=".gitmodules" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Page Remove="MVVM\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Models" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="MVVM\MVVM.csproj" />
+    </ItemGroup>
 
 </Project>

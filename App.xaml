@@ -2,8 +2,19 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:QueryConverter"
-             StartupUri="MainWindow.xaml">
+             StartupUri="Views/MainWindow.xaml">
     <Application.Resources>
-         
+        <Style TargetType="TextBox">
+            <Style.Setters>
+                <Setter Property="TextWrapping" Value="Wrap" />
+                <Setter Property="AcceptsReturn" Value="True" />
+                <Setter Property="Margin" Value="2" />
+            </Style.Setters>
+        </Style>
+        <Style TargetType="Button">
+            <Style.Setters>
+                <Setter Property="Margin" Value="2" />
+            </Style.Setters>
+        </Style>
     </Application.Resources>
 </Application>

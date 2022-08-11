@@ -1,0 +1,22 @@
+﻿<Window x:Class="QueryConverter.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QueryConverter"
+        xmlns:viewModels="clr-namespace:QueryConverter.ViewModels"
+        mc:Ignorable="d"
+        Title="Query Converter" 
+        Height="450" Width="800"
+        d:DataContext="{d:DesignInstance viewModels:ExecuteSqlProcedureConverterViewModel}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        
+        <TextBox Grid.Row="0" Text="{Binding UnConvertedText}" />
+        
+        <Button Grid.Row="1" Name="Convert" Command="{Binding Convert}" >Convert</Button>
+    </Grid>
+</Window>

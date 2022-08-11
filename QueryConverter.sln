@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueryConverter", "QueryConverter.csproj", "{9F5249D4-624A-4037-B2C0-C27171CAB163}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVM", "MVVM\MVVM.csproj", "{CA06D38F-751C-40DD-9097-64B847ABDC65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{9F5249D4-624A-4037-B2C0-C27171CAB163}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F5249D4-624A-4037-B2C0-C27171CAB163}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F5249D4-624A-4037-B2C0-C27171CAB163}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA06D38F-751C-40DD-9097-64B847ABDC65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA06D38F-751C-40DD-9097-64B847ABDC65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA06D38F-751C-40DD-9097-64B847ABDC65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA06D38F-751C-40DD-9097-64B847ABDC65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
